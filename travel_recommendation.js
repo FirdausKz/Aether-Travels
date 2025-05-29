@@ -100,6 +100,7 @@ function displayResult(title, imageUrl, description, container) {
 
 function deleteInput(){
 document.getElementById('conditionInput').value="";
+document.getElementById('result').innerHTML = "";
 }
 
 clear.addEventListener("click",deleteInput)
